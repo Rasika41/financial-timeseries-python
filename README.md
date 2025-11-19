@@ -244,6 +244,8 @@ This project implements state-of-the-art financial econometrics techniques:
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
+**Join the Discussion**: Have questions, ideas, or want to share your results? Join our [GitHub Discussions](https://github.com/leesh2015/financial-timeseries-python/discussions) to connect with the community!
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -261,6 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Udemy Course**: [Mastering Financial Time Series Analysis with Python](https://www.udemy.com/course/mastering-financial-time-series-analysis-with-python/?referralCode=BA6CA9A3E5406E41359E&couponCode=KRLETSLEARNNOW)
 - **Trading Dashboard**: [leenaissance.com/trading-history](https://leenaissance.com/trading-history)
+- **GitHub Discussions**: [Join the Community](https://github.com/leesh2015/financial-timeseries-python/discussions)
 
 ## 📧 Contact
 

@@ -244,6 +244,8 @@ python production_simulation.py
 
 기여를 환영합니다! Pull Request를 자유롭게 제출해 주세요. 주요 변경사항의 경우, 먼저 이슈를 열어 변경하고자 하는 내용에 대해 논의해 주세요.
 
+**토론 참여**: 질문, 아이디어, 또는 결과를 공유하고 싶으신가요? [GitHub Discussions](https://github.com/leesh2015/financial-timeseries-python/discussions)에 참여하여 커뮤니티와 소통해 보세요!
+
 ## 📄 라이센스
 
 이 프로젝트는 MIT 라이센스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
@@ -261,6 +263,7 @@ python production_simulation.py
 
 - **Udemy 강의**: [Mastering Financial Time Series Analysis with Python](https://www.udemy.com/course/mastering-financial-time-series-analysis-with-python/?referralCode=BA6CA9A3E5406E41359E&couponCode=KRLETSLEARNNOW)
 - **거래 대시보드**: [leenaissance.com/trading-history](https://leenaissance.com/trading-history)
+- **GitHub Discussions**: [커뮤니티 참여하기](https://github.com/leesh2015/financial-timeseries-python/discussions)
 
 ## 📧 문의
 
