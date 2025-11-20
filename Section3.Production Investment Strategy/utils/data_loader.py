@@ -39,9 +39,9 @@ def load_data(tickers: List[str],
     if start_date is None:
         start_date = (datetime.today() - timedelta(days=365*10)).strftime('%Y-%m-%d')
     
-    # Download data
+    # Download data with adjusted prices (handles stock splits automatically)
     df = yf.download(tickers, start=start_date, end=end_date,
-                     interval=interval, auto_adjust=False, progress=False)
+                     interval=interval, auto_adjust=True, progress=False)
     df.reset_index(inplace=True)
     
     # Set index to Date
@@ -77,8 +77,8 @@ def split_data(df: pd.DataFrame,
     --------
     Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]
         (train_data, test_data, ohlc_data)
-        train_data and test_data use 'Open' prices
-        ohlc_data contains full OHLC data for test period
+        train_data and test_data use 'Open' prices (adjusted for splits)
+        ohlc_data contains full OHLC data for test period (adjusted for splits)
     """
     split_index = int(len(df) * train_ratio)
     train_data = df['Open'].iloc[:split_index]
