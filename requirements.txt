@@ -10,6 +10,7 @@ pmdarima>=2.0.0
 
 # Data Collection
 yfinance>=0.2.0
+requests>=2.26.0
 
 # Visualization
 matplotlib>=3.5.0

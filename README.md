@@ -137,6 +137,35 @@ A production-level trading system currently operating with real capital:
   - Long Exit: `upper_price > upper_bound_mean`
   - Dynamic Re-optimization: When ECT alpha changes from negative to positive
 
+### Section 4: Factor-Based Asset Pricing Models
+
+**Status**: ✅ Course Available
+
+[📖 Detailed Documentation](Section4.Factor-Based%20Asset%20Pricing%20Models/README.md)
+
+Theoretical foundations and practical applications of factor-based asset pricing models:
+
+- **Chapter 1**: CAPM Limitations and Fama-French Model Origins
+  - Empirical testing of CAPM
+  - Identifying market anomalies (Size, Value)
+  - Visualizing model limitations
+
+- **Chapter 2**: Fama-French 3-Factor Model
+  - Implementing the 3-factor model
+  - Calculating factor exposures (Betas)
+  - Comparing multi-factor models vs CAPM
+
+- **Chapter 3**: Fama-French 5-Factor and Extended Models
+  - Profitability (RMW) and Investment (CMA) factors
+  - Momentum factor integration (6-Factor model)
+  - Model selection and comparison
+
+- **Chapter 4**: Practical Application and Backtesting
+  - Factor-based portfolio construction
+  - Walk-forward validation
+  - Transaction cost analysis
+  - Performance evaluation (Sharpe, Alpha, etc.)
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -170,6 +199,12 @@ python dynamic_simulation.py
 ```bash
 cd "Section3.Production Investment Strategy"
 python production_simulation.py
+```
+
+**Section 4 - Factor Models:**
+```bash
+cd "Section4.Factor-Based Asset Pricing Models/Chapter4.Practical Application and Backtesting"
+python factor_portfolio_backtest.py
 ```
 
 Results will be saved in the `results/` folder within each section.
@@ -239,6 +274,7 @@ This project implements state-of-the-art financial econometrics techniques:
 | Section 1: Time Series Fundamentals | `Section1.Financial Time Series Analysis/` | ✅ Available |
 | Section 2: Strategy Design | `Section2.Advanced Investment Strategy Design/` | ✅ Available |
 | Section 3: Production System | `Section3.Production Investment Strategy/` | 🚀 Live |
+| Section 4: Factor Models | `Section4.Factor-Based Asset Pricing Models/` | ✅ Available |
 
 ## 🤝 Contributing
 

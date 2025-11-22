@@ -137,6 +137,35 @@ Python을 활용한 금융 시계열 분석, 알고리즘 트레이딩 전략, �
   - 롱 청산: `upper_price > upper_bound_mean`
   - 동적 재최적화: ECT alpha가 음수에서 양수로 변경될 때
 
+### Section 4: 팩터 기반 자산 가격 결정 모델
+
+**상태**: ✅ 강의 제공 중
+
+[📖 상세 문서 보기](Section4.Factor-Based%20Asset%20Pricing%20Models/README.md)
+
+팩터 기반 자산 가격 결정 모델의 이론적 기초와 실전 응용:
+
+- **Chapter 1**: CAPM의 한계와 Fama-French 모델의 기원
+  - CAPM의 실증적 검증
+  - 시장 이상현상 식별 (규모, 가치 효과)
+  - 모델 한계 시각화
+
+- **Chapter 2**: Fama-French 3-팩터 모델
+  - 3-팩터 모델 구현
+  - 팩터 노출도(Beta) 계산
+  - 다중 팩터 모델 vs CAPM 비교
+
+- **Chapter 3**: Fama-French 5-팩터 및 확장 모델
+  - 수익성(RMW) 및 투자(CMA) 팩터
+  - 모멘텀 팩터 통합 (6-팩터 모델)
+  - 모델 선택 및 비교
+
+- **Chapter 4**: 실전 응용 및 백테스팅
+  - 팩터 기반 포트폴리오 구성
+  - 워킹 포워드 검증
+  - 거래 비용 분석
+  - 성과 평가 (Sharpe, Alpha 등)
+
 ## 🚀 빠른 시작
 
 ### 설치
@@ -170,6 +199,12 @@ python dynamic_simulation.py
 ```bash
 cd "Section3.Production Investment Strategy"
 python production_simulation.py
+```
+
+**Section 4 - 팩터 모델:**
+```bash
+cd "Section4.Factor-Based Asset Pricing Models/Chapter4.Practical Application and Backtesting"
+python factor_portfolio_backtest.py
 ```
 
 결과는 각 섹션의 `results/` 폴더에 저장됩니다.
@@ -239,6 +274,7 @@ python production_simulation.py
 | Section 1: 시계열 기초 | `Section1.Financial Time Series Analysis/` | ✅ 제공 중 |
 | Section 2: 전략 설계 | `Section2.Advanced Investment Strategy Design/` | ✅ 제공 중 |
 | Section 3: 프로덕션 시스템 | `Section3.Production Investment Strategy/` | 🚀 라이브 |
+| Section 4: 팩터 모델 | `Section4.Factor-Based Asset Pricing Models/` | ✅ 제공 중 |
 
 ## 🤝 기여하기
 
